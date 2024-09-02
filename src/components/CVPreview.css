@@ -1,0 +1,89 @@
+/* CVPreview.css */
+body {
+  font-family: "Times New Roman", sans-serif;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.cv-container {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h3 {
+  color: #333;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cv-container button {
+  background-color: #28a745;
+  transition: background-color 0.3s ease;
+}
+
+.cv-container button:hover {
+  background-color: #218838;
+}
+
+.section-title {
+  text-align: left;
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.info-block {
+  margin-bottom: 2cqmax;
+  border-style: dashed;
+  padding: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+.info-block .name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.info-block .header {
+  font-weight: bold;
+}
+.bullet-points {
+  list-style-type: disc; /* Ensures the bullet point is a disc */
+  margin-left: 20px; /* Indents the bullet point */
+  padding-left: 0; /* Removes extra padding from the list */
+  text-align: left;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between; /* Pushes items to the edges */
+  align-items: center; /* Aligns items vertically centered */
+}
